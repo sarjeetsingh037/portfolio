@@ -1,0 +1,10 @@
+.main-content {
+    background: #1e1e1f;
+    min-width: 75%;
+    width: 75%;
+    margin: 0;
+    border-radius: 20px;
+}
+.h1 {
+    color: gray;
+}

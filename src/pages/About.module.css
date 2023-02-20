@@ -1,0 +1,119 @@
+.about {
+ height:100%;
+ padding: 30px;
+}
+  
+.about .article-title { margin-bottom: 15px; }
+  
+.about-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+}
+  
+.about-text p { margin-bottom: 15px; }
+  
+.article-text {
+    font-size: var(--fs-4);
+    color: var(--light-gray-70);
+    margin: 40px 0;
+}
+.article-text p {
+    margin: 30px 0;
+}
+.services,.badges {
+  margin: 60px auto;
+}
+.service,.badge {
+  display: flex;
+  gap: 16px;
+  margin: 20px auto;
+}
+.service-heading, .badge-heading {
+  color: var(--white-1);
+  font-size: 24px;
+}
+
+.badge-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  padding: 20px;
+  background: var(--eerie-black-1);
+  box-shadow: var(--shadow-1);
+  border-radius: 20px;
+}
+.badge-img-box {
+ 
+  width: max-content;
+  border-radius: 20px;
+  background: var(--onyx);
+  box-shadow: var(--shadow-3);
+}
+
+.service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 600px) {
+  .service-container,.badge-box { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 768px) and (max-width: 900px){
+  .service-container,.badge-box { grid-template-columns: 1fr; }
+}
+.services-heading {
+  color: var(--white-1);
+  font-size: 20px;
+  margin: 25px auto;
+}
+.service-box {
+  padding: 20px;
+  flex:1 1 0;
+  display: flex;
+  gap: 20px;
+  background: var(--eerie-black-1);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  box-shadow: var(--shadow-1);
+}
+.service-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.service-name{
+  color: var(--white-2);
+}
+.service-text {
+  color: var(--light-gray-70);
+  line-height: 1.5;
+}
+
+.icon-box {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: var(--orange-yellow-crayola);
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+  padding: 10px;
+}
+.icon-box::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--eerie-black-1);
+  border-radius: inherit;
+  z-index: -1;
+
+}

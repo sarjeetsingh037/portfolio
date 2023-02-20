@@ -1,0 +1,23 @@
+.article-title {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 36px;
+    color: var(--white-1);
+    margin-bottom: 20px;
+}
+@media (max-width: 1048px) {
+    .article-title{
+       margin-top: 50px;
+    }
+}
+.article-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 4px;
+    background: var(--text-gradient-yellow);
+    border-radius: 5px;
+  }
+

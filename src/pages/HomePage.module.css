@@ -1,0 +1,7 @@
+.home {
+   width: 100%;
+   position: relative;
+   background: #181818;
+   border-radius: 20px;
+   border: 1px solid var(--jet);
+}
