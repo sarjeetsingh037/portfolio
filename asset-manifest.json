@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.046fda4c.css",
+    "main.js": "/static/js/main.2e34d2b2.js",
+    "static/media/award.jpg": "/static/media/award.97208dac915f72c17301.jpg",
+    "static/media/aws-developer.jpg": "/static/media/aws-developer.4dd44c2e21c1b63bf1d3.jpg",
+    "static/media/aws-badge.png": "/static/media/aws-badge.5a4fb8a2a6975889e543.png",
+    "static/media/profile.jpg": "/static/media/profile.8cdb9c71fe3567c3e410.jpg",
+    "index.html": "/index.html",
+    "main.046fda4c.css.map": "/static/css/main.046fda4c.css.map",
+    "main.2e34d2b2.js.map": "/static/js/main.2e34d2b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.046fda4c.css",
+    "static/js/main.2e34d2b2.js"
+  ]
+}
